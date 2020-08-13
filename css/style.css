@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:transparent;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14px;
+}
+
+
+header .carousel-inner .item{
+    height: 100vh;
+}
+
+.carousel-caption{
+    padding-bottom: 250px;
+}
+
+.carousel-caption h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.carousel-control.right{
+    background-image: none;
+}
+
+.carousel-control.left{
+    background-image: none;
+}
+
+.carousel-caption-animate .carousel-item.active .carousel-caption{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode: both;
+}
+
+.caption-animate  .item.active .carousel-caption.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+  
+  .caption-animate  .item.active .carousel-caption.hinge {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+  }
+  
+  .caption-animate .item.active .carousel-caption.flipOutX,
+  .caption-animate .item.active .carousel-caption.flipOutY,
+  .caption-animate .item.active .carousel-caption.bounceIn,
+  .caption-animate .item.active .carousel-caption.bounceOut {
+    -webkit-animation-duration: .75s;
+    animation-duration: .75s;
+  }
+  .caption-animate .item .carousel-caption.fadeIn,
+  .caption-animate .item .carousel-caption.fadeInDown,
+  .caption-animate .item .carousel-caption.fadeInDownBig,
+  .caption-animate .item .carousel-caption.fadeInLeft,
+  .caption-animate .item .carousel-caption.fadeInLeftBig,
+  .caption-animate .item .carousel-caption.fadeInRight,
+  .caption-animate .item .carousel-caption.fadeInRightBig,
+  .caption-animate .item .carousel-caption.fadeInUp,
+  .caption-animate .item .carousel-caption.fadeInUpBig{
+    opacity:0;
+  }
+
+form{
+    background: whitesmoke;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
