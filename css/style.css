@@ -18,9 +18,8 @@ header .carousel-inner .item{
 }
 
 .carousel-caption h2{
-    font-size: x-small;
     color: darkblue;
-    font-weight: bold;
+    font-weight: lighter;
     text-transform: uppercase;
 }
 
