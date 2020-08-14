@@ -160,7 +160,7 @@ a {
 
 a:hover {
   color: #0056b3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -4226,7 +4226,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  font-weight: bold;
+  
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -4357,7 +4357,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.05rem;
 }
 
 .navbar-nav .nav-link {
@@ -4976,7 +4976,6 @@ input[type="button"].btn-block {
 .breadcrumb-item {
   display: -ms-flexbox;
   display: flex;
-  font-size: large;
 }
 
 .breadcrumb-item + .breadcrumb-item {
@@ -4984,7 +4983,7 @@ input[type="button"].btn-block {
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-  display: block;
+  display: inline-block;
   padding-right: 0.5rem;
   color: #6c757d;
   content: "/";
