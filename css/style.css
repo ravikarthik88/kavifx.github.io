@@ -23,6 +23,12 @@ header .carousel-inner .item{
     text-transform: uppercase;
 }
 
+.carousel-caption h3{
+    font-size: x-small;
+    color: lightcoral;
+    text-transform: uppercase;
+}
+
 .carousel-control.right{
     background-image: none;
 }
