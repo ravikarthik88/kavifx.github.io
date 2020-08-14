@@ -160,7 +160,7 @@ a {
 
 a:hover {
   color: #0056b3;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:not([href]):not([class]) {
@@ -4226,7 +4226,6 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -4357,7 +4356,6 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  font-size: 1.05rem;
 }
 
 .navbar-nav .nav-link {
@@ -4629,11 +4627,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color:#007bff;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(59, 89, 152, 0.9);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -4644,7 +4642,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(59, 89, 152, 0.9);
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-light .navbar-toggler {
@@ -4990,7 +4988,7 @@ input[type="button"].btn-block {
 }
 
 .breadcrumb-item + .breadcrumb-item:hover::before {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .breadcrumb-item + .breadcrumb-item:hover::before {
