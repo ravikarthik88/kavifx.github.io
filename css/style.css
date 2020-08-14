@@ -30,7 +30,7 @@ header .carousel-inner .item{
     font-weight: bold;
     font-style: italic;
     color: yellow;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .carousel-control.right{
