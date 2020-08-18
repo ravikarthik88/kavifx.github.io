@@ -82,6 +82,26 @@ header .carousel-inner .item{
     letter-spacing: 2px;
 }
 
+.carousel-caption b{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    color: var(--warning);
+    text-shadow: 4px 0.5px var(--dark);
+    letter-spacing: 1.5px;
+}
+
+
+
+.carousel-caption .carousel-caption-square li{
+    font-size: 75px;
+    font-weight: bold;
+    font-style:oblique;
+    color: crimson;
+    text-shadow: 3px 0.5px var(--light);
+    letter-spacing: 1.5px;
+}
+
 form{
     background: whitesmoke;
     padding: 20px;
