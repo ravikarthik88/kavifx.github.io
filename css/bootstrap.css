@@ -4,7 +4,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- :root {
+:root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -3212,12 +3212,12 @@ input[type="button"].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #212529;
+  color: #3b5998;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.0);
   border-radius: 0.25rem;
 }
 
@@ -3387,15 +3387,15 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #fff;
+  color: var(--dark);
   text-decoration: none;
-  background-color: var(--primary);
+  background-color: transparent;
 }
 
 .dropdown-item.active, .dropdown-item:active {
   color: #3b5998;
   text-decoration: none;
-  background-color:var(--info);
+  background-color:transparent;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
