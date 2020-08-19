@@ -3211,13 +3211,13 @@ input[type="button"].btn-block {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #3b5998;
   text-align: left;
   list-style: none;
-  background-color: transparent;
+  background-color: var(--white);
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.0);
+  border: 1px solid rgba(0, 0, 0, 0.03);
   border-radius: 0.25rem;
 }
 
@@ -3378,6 +3378,7 @@ input[type="button"].btn-block {
   width: 100%;
   padding: 0.25rem 1.5rem;
   clear: both;
+  font-size:1.25rem;
   font-weight: 400;
   color: var(--primary);
   text-align: inherit;
@@ -3387,9 +3388,9 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: var(--dark);
+  color: var(--white);
   text-decoration: none;
-  background-color: transparent;
+  background-color:var(--primary);
 }
 
 .dropdown-item.active, .dropdown-item:active {
