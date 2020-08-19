@@ -3387,15 +3387,15 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #3b5998;
+  color: #fff;
   text-decoration: none;
-  background-color: var(--light);
+  background-color: var(--primary);
 }
 
 .dropdown-item.active, .dropdown-item:active {
-  color: #fff;
+  color: #3b5998;
   text-decoration: none;
-  background-color: #007bff;
+  background-color:var(--info);
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
