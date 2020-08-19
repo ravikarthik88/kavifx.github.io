@@ -108,9 +108,3 @@ form{
     box-sizing: border-box;
     border-radius: 20px;
 }
-
-.ftext{
-    border-bottom-width: 1px;
-    border-bottom-left-radius: 20px;
-    border-bottom-color: crimson;
-}
