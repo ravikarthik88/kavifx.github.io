@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color:transparent;
+    background-color:var(--light);
     font-family:'constantia','poppins',sans-serif;
     font-size: 1.25rem;
 }
@@ -80,7 +80,7 @@ header .carousel-inner .item{
     font-size: 50px;
     font-weight: bolder;
     font-style: italic;
-    color: var(--dark);
+    color: crimson;
     text-shadow: 1px 0.5px var(--light);
     letter-spacing: 1.5px;
 }
