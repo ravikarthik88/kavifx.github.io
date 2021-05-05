@@ -160,7 +160,7 @@ form{
     color: crimson;
 }
 
-.background{
+#background{
     background-image: url('/images/Sliders/15.jpg');    
     background-size: cover;
     background-repeat: no-repeat;
