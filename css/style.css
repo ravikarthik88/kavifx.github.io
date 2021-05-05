@@ -20,6 +20,7 @@ header .carousel-inner .item{
 
 .carousel-caption{
     padding-bottom: 250px;
+    font-family: 'constantia','poppins',sans-serif;
 }
 
 .carousel-caption h1{
@@ -28,6 +29,7 @@ header .carousel-inner .item{
     font-style: italic;
     color: var(--primary);
     text-shadow: 3px 1px white;
+    font-family: 'constantia';
 }
 
 
@@ -37,6 +39,7 @@ header .carousel-inner .item{
     font-style: italic;
     color: var(--dark);
     text-shadow: 3px 1px white;
+    font-family: 'poppins';
 }
 
 .carousel-caption h3{
@@ -45,6 +48,7 @@ header .carousel-inner .item{
     font-style: italic;
     color:var(--warning);
     text-shadow: 3px 1px white;
+    font-family: 'poppins';
 }
 
 .carousel-caption h4{
@@ -53,14 +57,16 @@ header .carousel-inner .item{
     font-style: italic;
     color: var(--success);
     text-shadow: 3px 1px white;
+    font-family: 'poppins';
 }
 
 .carousel-caption h5{
     font-size: 50px;
     font-weight: bolder;
     font-style: italic;
-    color: var(--light);
-    text-shadow: 3px 1px var(--dark);
+    color: var(--dark);
+    text-shadow: 3px 1px var(--yellow);
+    font-family: 'poppins';
 }
 .carousel-control.right{
     background-image: none;
@@ -152,4 +158,10 @@ form{
 
 .opt:hover{
     color: crimson;
+}
+
+.background{
+    background-image: url('/images/Sliders/15.jpg');    
+    background-size: cover;
+    background-repeat: no-repeat;
 }
